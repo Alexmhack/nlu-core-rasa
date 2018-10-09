@@ -1,9 +1,30 @@
 slots:
+  location:
+    type: text
 
 intents:
+  - greet
+  - goodbye
+  - weather_info
 
 entities:
+  - location
 
 templates:
+  utter_greet:
+    - text: "Hello! How can I help ?"
+    - text: "Hey There! How can I be of assistance ?"
+
+  utter_goodbye:
+    - text: "Talk to you later..."
+    - text: "Bye bye :("
+
+  utter_ask_location:
+    - text: "In what location ?"
+    - text: "Which location ?"
+    - text: "Please enter the location ?"
 
 actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_location
