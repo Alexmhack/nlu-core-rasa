@@ -7,7 +7,7 @@ from rasa_core_sdk.events import SlotSet
 
 from decouple import config
 
-class ActionCheckRestaurants(Action):
+class ActionWeather(Action):
 	def name(self):
 		return 'action_weather'
 
