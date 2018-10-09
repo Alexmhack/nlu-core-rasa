@@ -1,16 +1,384 @@
 {
-	"rasa_nlu_data": {
-		"common_examples": [
-		{
-			"text": "Hello",
-			"intent": "greet",
-			"entities": []
-		},
-		{
-			"text": "goodbye",
-			"intent": "goodbye",
-			"entities": []
-		}
-		]
-	}
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heyy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "What's the weather in Delhi today ?",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Hi there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey bot",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hiii",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "I want to talk to you",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "can I talk to you",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "greetings",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Nice to see you",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "ttyl",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "talk to you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "nice talking to you",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Nice time talking with you",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "I am done",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "enough",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "done for today",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "enough for today",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "enought for now",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "alright bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye bye then",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "weather in Banglore",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Banglore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Karnataka weather please ?",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Karnataka ",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I wonder what's weather in Paris",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Do I need a sweater today ?",
+        "intent": "weather_info",
+        "entities": []
+      },
+      {
+        "text": "give weather updates of Italy",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "weather info for Las Vegas",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Las Vegas",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Mumbai",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Mumbai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "is it raining in Hyderabad",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Hyderabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "will the sun shine in Agra",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "Agra",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "is the sky clear in Mexico",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Mexico",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "climate in Vatican City",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "Vatican City",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "climate conditions of Los Angeles",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "Los Angeles",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "climate for Uttar Pradesh",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 25,
+            "value": "Uttar Pradesh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Delhi",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Mumbai",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Mumbai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Kolkata",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Kolkata",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Uttarakhand",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Uttarakhand",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Surat",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Surat",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Ujjain city",
+        "intent": "weather_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ujjain",
+            "entity": "location"
+          }
+        ]
+      }
+    ]
+  }
 }
