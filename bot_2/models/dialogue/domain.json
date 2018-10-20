@@ -1,0 +1,13 @@
+{
+  "states": [
+    "intent_goodbye",
+    "intent_greet",
+    "intent_mood_affirm",
+    "intent_mood_deny",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_goodbye"
+  ]
+}
